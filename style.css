@@ -422,6 +422,8 @@ footer{
      padding-top: 2%;
      margin-top: -35%;
      padding-left:auto;
+     top: 0;
+     left: 0;
      text-align: left;
 }
 
