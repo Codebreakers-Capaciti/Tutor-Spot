@@ -433,7 +433,7 @@ footer{
 }
 .card{
         display: grid;
-        gap: 50px 100px;
+        gap: 40px 90px;
         grid-template-columns: auto auto auto;
         padding-left: 20px;
         margin-left: 20px;
