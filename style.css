@@ -211,7 +211,7 @@ nav button {
 /* ====================== HEADER =========================== */
 
 header {
-    background: url('./images/headerbg.jpg') no-repeat top center/100vw;
+    background: url('headerbg.jpg') no-repeat top center/100vw;
     max-width: 100vw;
     text-align: center;
     padding-bottom: var(--bottom-section-padding);
