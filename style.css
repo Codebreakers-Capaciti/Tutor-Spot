@@ -156,28 +156,6 @@ section {
 
 /* ====================== NAVBAR =========================== */
 nav {
-    background:  var(--color-primary);
-}
-
-.nav_container {
-    position: relative;
-    width: 100vw;
-}
-
-.nav_logo {
-    margin-left: 2rem;
-    position:  relative;
-}
-
-.nav_items {
-    position:  fixed;
-    top: 6rem;
-    right: 0;
-    background: var(--color-white);
-    height: max-content;
-    width: 18rem;
-}
-nav {
     width: 100vw;
     height: 6rem;
     display: grid;
@@ -364,6 +342,7 @@ gap: 1rem;
     display: block;
 }
 
+
 /* ====================== SUSCRIBE =========================== */
 
 .subscribe_container {
@@ -407,52 +386,30 @@ gap: 1rem;
     section {
         padding-bottom: var(--bottom-section-padding-mobile);
     }
-}
-/* media query*/
-@media screen and ( max-width: 700px ){
-    .header_containe{
-        display: grid;
-        grid-template-columns: auto;
-        height: auto;
-        width: auto;
-    }
-    section .container .about_article{
-        display: grid;
-        grid-template-columns: auto;
-    }
-    footer{
-        height: auto;
-        width: auto;
-    }
-    .card{
-        grid-template-columns: auto;
-        gap: 5px;
-        padding-left: 3%;
-        margin-left: 3%;
-    }
-    .downloads{
-        grid-template-columns: auto;
-        padding-left: -19%;
-        margin-left: -19%;
-    }
-    .card-text{
-        width: 300px;
-        margin-left: 10px;
-        grid-template-columns: auto;
-    }
-    .location{
-        padding-left:-35%;
-        margin-left: -8%;
-    }
-    footer .scrollUp{
-        color:var(--color-black);
-        color: blue;
-        text-align: left; 
-        padding-left: 50%;
-        margin-left: 250%;
-        display: none;
+
+    /* =========Navbar=========*/
+    nav {
+        background:  var(--color-primary);
     }
 
+    .nav_container {
+        position: relative;
+        width: 100vw;
+    }
+
+    .nav_logo {
+        margin-left: 2rem;
+        position:  relative;
+    }
+
+    .nav_items {
+        position:  fixed;
+        top: 6rem;
+        right: 0;
+        background: var(--color-white);
+        height: max-content;
+        width: 18rem;
+    }
 }
 /* Footer changes */
 footer{
