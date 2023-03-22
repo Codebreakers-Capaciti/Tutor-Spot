@@ -421,14 +421,21 @@ footer{
      margin-right: 0px;
      padding-top: 2%;
      margin-top: -35%;
-     padding-left:0px;
+     padding-left:auto;
+     text-align: left;
 }
+
+.add
+{
+text-align: right;
+}
+
 .card{
         display: grid;
         gap: 40px 90px;
         grid-template-columns: auto auto auto;
         padding-left: 20px;
-        margin-left: 20px;
+        margin-left: 15px;
         margin-bottom: 15px;
         height: auto;
         color: var(--color-light);
