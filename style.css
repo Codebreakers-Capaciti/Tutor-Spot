@@ -396,6 +396,10 @@ gap: 1rem;
         position: relative;
         width: 100vw;
     }
+    footer {
+        position: relative;
+        width: auto;
+    }
 
     .nav_logo {
         margin-left: 2rem;
