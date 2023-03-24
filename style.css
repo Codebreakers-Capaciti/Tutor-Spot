@@ -267,6 +267,10 @@ header {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
 }
+.testimonials_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+ }
 
 .testimonials {
     display: flex;
@@ -540,3 +544,49 @@ address{ color:var(--color-light)}
     size: 60px;
 }
 
+/* media query*/
+@media screen and ( max-width: 700px ){
+    .header_containe{
+        display: grid;
+        grid-template-columns: auto;
+        height: auto;
+        width: auto;
+    }
+    section .container .about_article{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    footer{
+        height: auto;
+        width: auto;
+    }
+    .card{
+        grid-template-columns: auto;
+        gap: 5px;
+        padding-left: 3%;
+        margin-left: 3%;
+    }
+    .downloads{
+        grid-template-columns: auto;
+        padding-left: -19%;
+        margin-left: -19%;
+    }
+    .card-text{
+        width: 300px;
+        margin-left: 10px;
+        grid-template-columns: auto;
+    }
+    .location{
+        padding-left:-35%;
+        margin-left: -8%;
+    }
+    footer .scrollUp{
+        color:var(--color-black);
+        color: blue;
+        text-align: left; 
+         padding-left: 50%;
+          margin-left: 250%;
+          display: none;
+    }
+
+}
